@@ -101,3 +101,5 @@
 [11/Jun/2012:01:03:38 -0700] Server.httpServe: SHUTDOWN
 [11/Jun/2012:01:03:38 -0700] Server.httpServe: BACKEND STOPPED
 [11/Jun/2012:01:03:39 -0700] Server.httpServe: START (EventLoopSimple)
+[11/Jun/2012:01:33:45 -0700] Server.httpServe: SHUTDOWN
+[11/Jun/2012:01:33:45 -0700] Server.httpServe: BACKEND STOPPED
