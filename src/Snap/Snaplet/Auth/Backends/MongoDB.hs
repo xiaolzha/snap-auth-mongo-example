@@ -81,7 +81,7 @@ initMongoAuth sess db = makeSnaplet "mongodb-auth" desc datadir $ do
     desc = "A MongoDB backend for user authentication"
     datadir = Nothing
 
-
+withDB :: MonadIO m => MongoAuthManager -> Pipe -> Action m a -> m (Either Failure a)
 withDB manager conn action = access conn master (US.u $ mongodbName manager) action
 
 instance IAuthBackend MongoAuthManager where
